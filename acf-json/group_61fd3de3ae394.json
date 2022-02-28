@@ -1,0 +1,247 @@
+{
+    "key": "group_61fd3de3ae394",
+    "title": "Footer Options",
+    "fields": [
+        {
+            "key": "field_61fd3e0fba364",
+            "label": "Footer Logo",
+            "name": "footer_logo",
+            "type": "image",
+            "instructions": "Upload\/Select footer logo form here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_61fd3e5d42295",
+            "label": "Footer Description",
+            "name": "footer_description",
+            "type": "textarea",
+            "instructions": "Write footer description form here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_61fd3ea342296",
+            "label": "Footer Socials",
+            "name": "footer_socials",
+            "type": "repeater",
+            "instructions": "Add footer socials form here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 4,
+            "layout": "table",
+            "button_label": "Add Social",
+            "sub_fields": [
+                {
+                    "key": "field_61fd3ef942297",
+                    "label": "Social Icon",
+                    "name": "footer_social_icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "fab fa-facebook-f": "Facebook",
+                        "fab fa-twitter": "Twitter",
+                        "fab fa-instagram": "Instagram",
+                        "fab fa-linkedin-in": "Linkedin",
+                        "fab fa-google-plus-g": "Google+"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_61fd3f5142298",
+                    "label": "Social URL",
+                    "name": "footer_social_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "https:\/\/example.com"
+                }
+            ]
+        },
+        {
+            "key": "field_61fd443130b99",
+            "label": "Footer Address",
+            "name": "footer_address",
+            "type": "group",
+            "instructions": "Footer address here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_61fd446830b9a",
+                    "label": "Address Title",
+                    "name": "address_title",
+                    "type": "text",
+                    "instructions": "Write address title here.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Get In Touch",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_61fd44a730b9b",
+                    "label": "Address Infos",
+                    "name": "address_infos",
+                    "type": "repeater",
+                    "instructions": "Add address infos here.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "collapsed": "",
+                    "min": 0,
+                    "max": 3,
+                    "layout": "table",
+                    "button_label": "Add Address Info",
+                    "sub_fields": [
+                        {
+                            "key": "field_61fd450c30b9c",
+                            "label": "Info Title",
+                            "name": "info_title",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_61fd452e30b9d",
+                            "label": "Info URL",
+                            "name": "info_url",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "field_61fd48856f131",
+            "label": "Copyright Text",
+            "name": "copyright_text",
+            "type": "textarea",
+            "instructions": "Write coyright text here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Copyright &copy;<script>document.write(new Date().getFullYear());<\/script> All rights reserved | This template is made with <i class=\"ti-heart\" aria-hidden=\"true\"><\/i> by <a href=\"https:\/\/colorlib.com\" target=\"_blank\">Colorlib<\/a>",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-footer"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017837
+}

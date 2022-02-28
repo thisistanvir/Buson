@@ -1,0 +1,98 @@
+{
+    "key": "group_61fd3393c937f",
+    "title": "Call to Action",
+    "fields": [
+        {
+            "key": "field_61fd33a3b2c0d",
+            "label": "CTA Title",
+            "name": "cta_title",
+            "type": "text",
+            "instructions": "Write section title here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Request for Call Back",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61fd33deb2c0e",
+            "label": "CTA Description",
+            "name": "cta_description",
+            "type": "textarea",
+            "instructions": "Write cta description here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": 4,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_61fd3428b2c0f",
+            "label": "CTA Button Text",
+            "name": "cta_button_text",
+            "type": "text",
+            "instructions": "Write cta button text here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Contact Us",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61fd3451b2c10",
+            "label": "CTA Button URL",
+            "name": "cta_button_url",
+            "type": "url",
+            "instructions": "Type\/Paste button URL here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "https:\/\/example.com"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-call-to-action"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017811
+}

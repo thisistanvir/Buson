@@ -1,0 +1,148 @@
+{
+    "key": "group_621c3549c99a1",
+    "title": "Contact Page Settings",
+    "fields": [
+        {
+            "key": "field_621c373830d75",
+            "label": "Map Latitude",
+            "name": "map_latitude",
+            "type": "text",
+            "instructions": "Type\/Paste map latitude here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "24.012856",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_621c36ee30d74",
+            "label": "Map Longitude",
+            "name": "map_longitude",
+            "type": "text",
+            "instructions": "Type\/Paste map longitude here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "89.259056",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_621c3910770ae",
+            "label": "Contact Info",
+            "name": "contact_info",
+            "type": "repeater",
+            "instructions": "Add contact Info here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_621c3936770af",
+                    "label": "Info Title",
+                    "name": "info_title",
+                    "type": "text",
+                    "instructions": "Type info title here.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_621c3955770b0",
+                    "label": "Info Description",
+                    "name": "info_description",
+                    "type": "textarea",
+                    "instructions": "Type Info description here.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_621c397a770b1",
+                    "label": "Info Icon",
+                    "name": "info_icon",
+                    "type": "select",
+                    "instructions": "Select info icon from here.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "fas fa-home": "Home",
+                        "fas fa-phone": "Phone",
+                        "fas fa-envelope": "Email"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-contact-page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017830
+}

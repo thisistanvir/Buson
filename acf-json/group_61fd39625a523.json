@@ -1,0 +1,44 @@
+{
+    "key": "group_61fd39625a523",
+    "title": "Recent News Title",
+    "fields": [
+        {
+            "key": "field_61fd396fce7e1",
+            "label": "Recent News Title",
+            "name": "recent_news_title",
+            "type": "text",
+            "instructions": "Write recent news title here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Our Recent News",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-recent-news-title"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017863
+}

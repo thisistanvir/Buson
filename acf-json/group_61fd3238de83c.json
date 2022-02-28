@@ -1,0 +1,44 @@
+{
+    "key": "group_61fd3238de83c",
+    "title": "Services Title",
+    "fields": [
+        {
+            "key": "field_61fd32c1c17a8",
+            "label": "Services Title",
+            "name": "services_title",
+            "type": "text",
+            "instructions": "Write services title for home page here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Our Services",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-services-title"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017878
+}

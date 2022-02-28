@@ -1,0 +1,79 @@
+{
+    "key": "group_61f95a0d07739",
+    "title": "Slider Settings",
+    "fields": [
+        {
+            "key": "field_61f95a1710b1b",
+            "label": "Subtitle",
+            "name": "subtitle",
+            "type": "text",
+            "instructions": "Write subtitle here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61f95a4610b1c",
+            "label": "Button Text",
+            "name": "button_text",
+            "type": "text",
+            "instructions": "Write button text here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Learn More",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_61f95a7e10b1d",
+            "label": "Button URL",
+            "name": "button_url",
+            "type": "url",
+            "instructions": "Write\/Paste button url here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "slider"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017884
+}

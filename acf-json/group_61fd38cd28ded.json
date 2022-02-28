@@ -1,0 +1,44 @@
+{
+    "key": "group_61fd38cd28ded",
+    "title": "Teams Title",
+    "fields": [
+        {
+            "key": "field_61fd38decbf1e",
+            "label": "Teams Title",
+            "name": "teams_title",
+            "type": "text",
+            "instructions": "Write Teams Title here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Teams",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-teams-title"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017902
+}

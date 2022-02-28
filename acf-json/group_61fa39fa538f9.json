@@ -1,0 +1,44 @@
+{
+    "key": "group_61fa39fa538f9",
+    "title": "Case Settings",
+    "fields": [
+        {
+            "key": "field_61fa3a06cd770",
+            "label": "Case Category",
+            "name": "case_category",
+            "type": "text",
+            "instructions": "Write case category here.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cases"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1646017823
+}
